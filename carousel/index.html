@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link href="./styles.css" rel="stylesheet" />
+
+<body>
+  <div class="page">
+    <div class="carousel">
+      <div class="carousel-slides-container">
+        <div class="carousel-slides">
+          <div class="slide slide-1"></div>
+          <div class="slide slide-2"></div>
+          <div class="slide slide-3"></div>
+          <div class="slide slide-4"></div>
+        </div>
+      </div>
+      <div class="carousel-overlay">
+        <div class="carousel-buttons">
+          <button id="left" class="hidden carousel-button">
+            <i data-lucide="chevron-left"></i>
+          </button>
+          <button id="right" class="carousel-button">
+            <i data-lucide="chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./script.js"></script>
+<script src="https://unpkg.com/lucide@latest" ></script>
+<script>
+  lucide.createIcons()
+</script>
+</html>
